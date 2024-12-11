@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clonai"
+version = "0.0.0"
+description = "Python bindings for the DNA engineering library poly"
+authors = ["Timothy Stiles <tim@stiles.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "poly" }  # This tells Poetry to include the 'package' directory
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
