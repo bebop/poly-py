@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "clonai"
-version = "0.0.0"
+version = "0.0.1"
 description = "Python bindings for the DNA engineering library poly"
 authors = ["Timothy Stiles <tim@stiles.io>"]
 license = "MIT"
