@@ -1,4 +1,4 @@
-# poly_py
+# poly-py
 
 python bindings for [Poly](https://github.com/bebop/poly), a Go package for engineering DNA.
 
